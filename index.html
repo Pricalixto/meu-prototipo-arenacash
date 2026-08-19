@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArenaCash - Indique e Ganhe</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Configuração de fonte e preenchimento da tela */
+        body, html {
+            height: 100%;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f6;
+        }
+
+        /* Container principal do Slide ocupando 100% da tela */
+        .slide-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            /* Fundo com degradê moderno em tons de azul */
+            background: linear-gradient(135deg, #0056b3 0%, #002244 100%);
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Cartão de conteúdo centralizado com efeito "Glassmorphism" */
+        .content {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.08); /* Fundo branco translúcido */
+            padding: 60px 50px;
+            border-radius: 24px;
+            backdrop-filter: blur(12px); /* Efeito de desfoque */
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+        }
+
+        /* Marca / Logo */
+        .brand {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            color: #82caff; /* Azul claro para contraste */
+        }
+
+        /* Título Principal (Grande) */
+        .title {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Subtítulo */
+        .subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1.4;
+            margin-bottom: 40px;
+            color: #e0f2fe;
+        }
+
+        /* Botão Call to Action (CTA) */
+        .cta-button {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #003b73; /* Azul escuro da marca */
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 16px 45px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Efeito Hover do botão */
+        .cta-button:hover {
+            background-color: #e0f2fe;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 768px) {
+            .title {
+                font-size: 2.8rem;
+            }
+            .subtitle {
+                font-size: 1.2rem;
+            }
+            .content {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Slide 1: Capa da Campanha -->
+    <div class="slide-container">
+        <div class="content">
+            <div class="brand">ArenaCash</div>
+            <h1 class="title">Indique um amigo e ganhe R$ 50</h1>
+            <p class="subtitle">Compartilhe as facilidades da ArenaCash e multiplique seu saldo direto na sua conta a cada nova indicação ativada.</p>
+            <a href="#" class="cta-button">Saiba mais</a>
+        </div>
+    </div>
+
+</body>
+</html>
